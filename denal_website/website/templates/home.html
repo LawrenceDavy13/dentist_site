@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Title -->
-  <title>Dento - Dentist &amp; Medical HTML Template</title>
+  <title>Dr. Dentist</title>
 
   <!-- Favicon -->
   <link rel="icon" href="{% static 'website/img/core-img/favicon.ico' %}">
@@ -36,18 +36,16 @@
           <!-- Top Content -->
           <div class="col-6 col-md-9 col-lg-8">
             <div class="top-header-content">
-              <a href="#" data-toggle="tooltip" data-placement="bottom" title="28 Jackson Street, Chicago, 7788569 USA"><i class="fa fa-map-marker"></i> <span>28 Jackson Street, Chicago, 7788569 USA</span></a>
-              <a href="#" data-toggle="tooltip" data-placement="bottom" title="info.dento@gmail.com"><i class="fa fa-envelope"></i> <span>info.dento@gmail.com</span></a>
+              <a href="#" data-toggle="tooltip" data-placement="bottom" title="184 Southside Drive, London, E1 7AX"><i class="fa fa-map-marker"></i> <span>184 Southside Drive, London, E1 7AX</span></a>
+              <a href="#" data-toggle="tooltip" data-placement="bottom" title="drdentist@gmail.com"><i class="fa fa-envelope"></i> <span>drdentist@gmail.com</span></a>
             </div>
           </div>
           <!-- Top Header Social Info -->
           <div class="col-6 col-md-3 col-lg-4">
             <div class="top-header-social-info text-right">
-              <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" data-toggle="tooltip" data-placement="bottom" title="Google Plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" data-toggle="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-linkedin"></i></a>
-              <a href="#" data-toggle="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+              <a href="https://facebook.com" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://twitter.com" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+              <a href="https://linkedin.com" data-toggle="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-linkedin"></i></a>
             </div>
           </div>
         </div>
@@ -63,7 +61,7 @@
           <nav class="classy-navbar justify-content-between" id="dentoNav">
 
             <!-- Logo -->
-            <a class="nav-brand" href="index.html"><img src="{% static 'website/img/core-img/logo.png' %}" alt=""></a>
+            <a class="nav-brand" href="{% url 'home' %}"><img src="{% static 'website/img/core-img/logo.png' %}" alt=""></a>
 
             <!-- Navbar Toggler -->
             <div class="classy-navbar-toggler">
@@ -81,10 +79,10 @@
               <!-- Nav Start -->
               <div class="classynav">
                 <ul id="nav">
-                  <li><a href="index.html">Home</a></li>
+                  <li><a href="{% url 'home' %}">Home</a></li>
                   <li><a href="#">Pages</a>
                     <ul class="dropdown">
-                      <li><a href="index.html">- Home</a></li>
+                      <li><a href="{% url 'home' %}">- Home</a></li>
                       <li><a href="about.html">- About Us</a></li>
                       <li><a href="service.html">- Service</a></li>
                       <li><a href="pricing.html">- Pricing</a></li>
@@ -143,9 +141,8 @@
             <div class="col-12">
               <!-- Welcome Text -->
               <div class="welcome-text text-center">
-                <h2 data-animation="fadeInUp" data-delay="100ms">We Believe Everyone Should Have Easy Access To Great Dental Care</h2>
-                <p data-animation="fadeInUp" data-delay="300ms">As a leading industry innovator, Dento is opening up exciting new opportunities for dental professionals, investors, employees & suppliers. Contact us to find out what we have to
-                  offer you.</p>
+                <h2 data-animation="fadeInUp" data-delay="100ms">Welcome to the most award winning private dentisty practice in the UK</h2>
+                <p data-animation="fadeInUp" data-delay="300ms">Nothing but the best professionals in recent memory. Available at a click of a button </p>
                 <div class="welcome-btn-group">
                   <a href="#" class="btn dento-btn mx-2" data-animation="fadeInUp" data-delay="500ms">Get Started</a>
                   <a href="#" class="btn dento-btn mx-2 active" data-animation="fadeInUp" data-delay="700ms">Contact Us</a>
@@ -349,9 +346,7 @@
         <!-- Video Area -->
         <div class="col-12 col-lg-6">
           <div class="dento-video-area mb-100">
-            <img src="{% static 'website/img/bg-img/14.jpg' %}" alt="">
-            <!-- Play Button -->
-            <a href="#" class="video-play-button"><i class="fa fa-play" aria-hidden="true"></i></a>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wrdEE8Br7Zk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
