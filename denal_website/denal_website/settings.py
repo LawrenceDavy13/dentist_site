@@ -123,3 +123,15 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
+
+
+# Email credentials
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_POST = 587
+EMAIL_HOST_USER = 'drdentist@gmail.com'
+EMAIL_HOST_PASSWORD = 'drdentist'
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
+
+#https://myaccount.google.com/lesssecureapps
+# Toggle on in production
