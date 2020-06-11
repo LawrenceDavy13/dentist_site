@@ -126,12 +126,12 @@ STATICFILES_DIRS = [
 
 #SEND EMAIL WITH DJANGO
 # Email credentials
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_POST = 587
-EMAIL_HOST_USER = 'drdentist@gmail.com'
-EMAIL_HOST_PASSWORD = 'drdentist'
-EMAIL_USE_TLS = True
-EMAIL_USE_SSL = False
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_POST = 587
+# EMAIL_HOST_USER = 'drdentist@gmail.com'
+# EMAIL_HOST_PASSWORD = 'drdentist'
+# EMAIL_USE_TLS = True
+# EMAIL_USE_SSL = False
 
 #https://myaccount.google.com/lesssecureapps
 # Toggle on in production
@@ -139,10 +139,10 @@ EMAIL_USE_SSL = False
 
 
 
-# SEND EMAIL WITH SENDMAIL SERVER
-# python -m smtpd -n -c DebuggingServer localhost:1025
-EMAIL_HOST = 'localhost'
-EMAIL_POST = 1025
-EMAIL_HOST_USER = ''
-EMAIL_HOST_PASSWORD = ''
-EMAIL_USE_TLS = True
+# # SEND EMAIL WITH SENDMAIL SERVER
+# # python -m smtpd -n -c DebuggingServer localhost:1025
+# EMAIL_HOST = 'localhost'
+# EMAIL_POST = 1025
+# EMAIL_HOST_USER = ''
+# EMAIL_HOST_PASSWORD = ''
+# EMAIL_USE_TLS = True
